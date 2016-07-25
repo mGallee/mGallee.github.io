@@ -1,0 +1,70 @@
+.section-first{
+	background:#2c3e50;
+	height: 900px;
+}
+.section-first::before{
+	content: "";
+	opacity: 0.43;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: background-image 0.85s ease-in-out;
+	transition: background-image 0.85s ease-in-out;
+}
+
+.section-first[data-background="1"]::before{
+	background:url(../img/winston-earth.jpg);
+	background-position:center;
+	background-position-y: bottom;
+	
+}
+
+.section-first[data-background="2"]::before{
+	background:url(../img/tracer-close.jpg);
+	background-position:center;
+	background-position-y: bottom;
+}
+
+.section-first[data-background="3"]::before{
+	background:url(../img/widowmaker-close.jpg);
+	background-position:center;
+	background-position-y: bottom;
+}
+
+.section-first[data-background="4"]::before{
+	background:url(../img/solder-close.jpg);
+	background-position:center;
+	background-position-y: bottom;
+}
+
+.section-first[data-background="5"]::before{
+	background:url(../img/mercy-close.jpg);
+	background-position:center;
+	background-position-y: bottom;
+}
+
+.section-first[data-background="6"]::before{
+	background:url(../img/dva-close.jpg);
+	background-position:center;
+	background-position-y: bottom;
+}
+
+.section-first h1{
+	font-size: 58px;
+	color: #FAFAFA;
+	margin-top: 280px;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.section-first p{
+	color: #FAFAFA;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+}
+
